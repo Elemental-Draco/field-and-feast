@@ -151,6 +151,62 @@ table {
 
 /* body/global styling */
 
+html {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 16px;
+}
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+/* header styles */
+
+header {
+  background-color: var(--midnight-blue);
+  width: 100%;
+}
+
+header > img {
+  margin: 0 auto;
+  display: block;
+  width: 33%;
+}
+
+h1 {
+  color: var(--soft-white);
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+header > p {
+  color: var(--soft-white);
+  font-style: italic;
+  margin: 20px auto 0;
+  width: fit-content;
+  font-size: 1.2rem;
+}
+
+nav {
+  background-color: var(--champagne-gold);
+  margin-top: 30px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+nav a {
+  color: var(--midnight-blue);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
