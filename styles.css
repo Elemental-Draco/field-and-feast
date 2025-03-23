@@ -170,7 +170,7 @@ header {
 header > img {
   margin: 0 auto;
   display: block;
-  width: 33%;
+  max-width: 200px;
 }
 
 h1 {
@@ -206,6 +206,40 @@ nav a {
   font-weight: 800;
   font-size: 1.5rem;
 }
+
+/* main styles */
+
+main {
+  padding: 25px;
+  background-color: var(--linen);
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--dark-charcoal);
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+main > section {
+  padding: 30px 0;
+  border-bottom: 2px solid var(--champagne-gold);
+}
+
+/* about styles */
+
+#about p {
+  color: var(--dark-charcoal);
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+/* gallery styles */
+#gallery img {
+  width: 100%;
+}
+
+/* welcome section */
 
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
