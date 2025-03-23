@@ -355,4 +355,11 @@ address a:first-of-type {
   }
 }
 /* MEDIA QUERY (large) */
+
+@media all and (min-width: 900px) {
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 /* MEDIA QUERY (xl) */
