@@ -236,7 +236,7 @@ main > section {
 
 /* offerings styles */
 
-#offerings > section {
+#offerings > div > section {
   background-color: var(--olive-green);
   color: var(--soft-white);
   padding: 15px;
@@ -327,5 +327,32 @@ address a:first-of-type {
 }
 
 /* MEDIA QUERY (medium) */
+
+@media all and (min-width: 600px) {
+  #offerings > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  #offerings > div > section {
+    margin: 0;
+  }
+
+  #offerings h2 {
+    margin-bottom: 30px;
+  }
+
+  #offerings > div :last-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
